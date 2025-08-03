@@ -26,6 +26,10 @@ Thumbs.db
 *.csv
 *.tsv
 *.zip
+*.npy
+*.pptx
+*.pdf
+*.faiss
 
 # Pyenv
 pyenv.cfg
@@ -37,4 +41,4 @@ Scripts/
 share/
 
 # Misc
-.to_create_vector_data  # if this is a large output file
+.to_create_vector_data
