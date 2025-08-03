@@ -1,0 +1,40 @@
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and dumps
+*.log
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.zip
+
+# Pyenv
+pyenv.cfg
+
+# Dependency folders
+Include/
+Lib/
+Scripts/
+share/
+
+# Misc
+.to_create_vector_data  # if this is a large output file

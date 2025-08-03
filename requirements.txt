@@ -1,0 +1,28 @@
+# requirements.txt
+fastapi
+uvicorn
+langchain
+langchain-core
+langchain-qdrant
+langchain-groq
+langchain-huggingface
+qdrant-client
+pymongo
+redis
+python-dotenv
+
+sentence-transformers
+
+
+
+# for create_vector_db.py
+python-dotenv                 # For loading environment variables from .env
+langchain-core                # For RunnableLambda, Document
+langchain-community           # For Qdrant vector store and HuggingFace embeddings
+langchain-text-splitters     # For RecursiveCharacterTextSplitter
+qdrant-client                 # Official Qdrant client
+
+
+# mongo db altas
+
+#motor
