@@ -1,0 +1,47 @@
+# Ignore Python environments
+venv/
+myenv/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment files
+.env
+
+# Ignore data, vector, and model files
+*.log
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.zip
+*.npy
+*.faiss
+*.pt
+*.bin
+*.pkl
+*.pdf
+*.pptx
+
+# Ignore custom or auto-generated folders
+.to_create_vector_data/
+vectorstore/
+downloads/
+models/
+datasets/
+JSON files/
+OCR_JSON_PATH/
+
+# Ignore editor/system-specific config
+.DS_Store
+Thumbs.db
+.vscode/
+.pytest_cache/
+.idea/
+
+.cache/
+*.bin
+~/.torch/
