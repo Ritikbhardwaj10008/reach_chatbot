@@ -1,28 +1,37 @@
-# requirements.txt
-fastapi
-uvicorn
-langchain
-langchain-core
-langchain-qdrant
-langchain-groq
-langchain-huggingface
-qdrant-client
-pymongo
-redis
-python-dotenv
+# FastAPI & Server
+fastapi==0.116.1
+uvicorn==0.35.0
 
-sentence-transformers
+# LangChain core and integrations
+langchain==0.3.26
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-groq==0.3.6
+langchain-huggingface==0.3.1
+langchain-qdrant==0.2.0
+langchain-text-splitters==0.3.8
 
+# LLM and Embeddings
+sentence-transformers==5.0.0
+transformers==4.53.3
+torch==2.1.2+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
 
+# Environment, settings, and validation
+python-dotenv==1.1.1
+pydantic==2.11.7
+pydantic-settings==2.10.1
 
-# for create_vector_db.py
-python-dotenv                 # For loading environment variables from .env
-langchain-core                # For RunnableLambda, Document
-langchain-community           # For Qdrant vector store and HuggingFace embeddings
-langchain-text-splitters     # For RecursiveCharacterTextSplitter
-qdrant-client                 # Official Qdrant client
+# MongoDB and Redis
+motor==3.7.1
+pymongo==4.13.2
+redis==6.2.0
 
+# Qdrant
+qdrant-client==1.15.0
 
-# mongo db altas
-
-#motor
+# Utility
+tqdm==4.67.1
+numpy<2
+scikit-learn==1.7.1
+orjson==3.11.0
